@@ -17,16 +17,16 @@
   },
   "autoload": {
     "psr-4": {
-      "Alexusmai\\YandexMetrika\\": "src"
+      "Webjohny\\YandexMetrika\\": "src"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Alexusmai\\YandexMetrika\\YandexMetrikaServiceProvider"
+        "Webjohny\\YandexMetrika\\YandexMetrikaServiceProvider"
       ],
       "aliases": {
-        "YandexMetrika": "Alexusmai\\YandexMetrika\\YandexMetrikaFacade"
+        "YandexMetrika": "Webjohny\\YandexMetrika\\YandexMetrikaFacade"
       }
     }
   }
