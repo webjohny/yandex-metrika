@@ -28,7 +28,7 @@ class YandexMetrikaServiceProvider extends ServiceProvider
     {
         $this->app->bind('yandexMetrika', function () {
 
-            return new \Alexusmai\YandexMetrika\YandexMetrika;
+            return new \Webjohny\YandexMetrika\YandexMetrika;
         });
     }
 }
